@@ -1,0 +1,225 @@
+ body {
+   font-family: Arial, sans-serif;
+   background: linear-gradient(to left, #4d194d, #3e1f47, #312244, #272640, #1b3a4b, #34a0a4, #76c893, #99d98c);
+   color: #fff;
+   margin: 0;
+
+ }
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+ }
+
+ .navbar1 {
+   width: 100%;
+   height: 100vh;
+   background-image: url("bg.jpg");
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+ }
+
+ #sd {
+   transition: all 0.6 ease-in-out;
+
+ }
+
+ nav {
+   background: black;
+   border-radius: 30px;
+   padding: 30px;
+   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+ }
+
+ nav ul li {
+   display: inline-block;
+   list-style: none;
+   font-size: 2rem;
+   padding: 0 10px;
+   margin: 0 20px;
+   cursor: pointer;
+   position: relative;
+ }
+
+ nav ul li:after {
+   content: '';
+   width: 0;
+   height: 3px;
+   background: rgb(245, 120, 4);
+   position: absolute;
+   left: 0;
+   bottom: -10px;
+   transition: 0.5s;
+   color: black;
+ }
+
+ nav ul li:hover::after {
+   width: 100%;
+ }
+
+ .content {
+   position: fixed;
+   bottom: 0;
+   background: rgba(0, 0, 0, 0.5);
+   color: #f1f1f1;
+   width: 100%;
+   padding: 20px;
+ }
+
+ .video {
+   width: 1000px;
+   height: 1000px;
+ }
+
+ */ .navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: linear-gradient(to left, #4d194d, #3e1f47, #312244, #272640, #1b3a4b, #34a0a4, #76c893, #99d98c);
+   padding: 10px;
+ }
+
+ .navbar a {
+   color: black;
+   text-shadow: 10px yellow;
+   text-decoration: none;
+   margin-right: 10px;
+ }
+
+ .navbar a:hover {
+   color: #ccc;
+   text-shadow: yellow, salmon;
+ }
+
+ #sadsongs {
+
+   text-align: center;
+   margin-bottom: 10px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 50px;
+ }
+
+ #romanticsongs {
+   text-align: center;
+   margin-bottom: 10px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 50px;
+ }
+
+ #partysongs {
+   text-align: center;
+   margin-bottom: 10px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 50px;
+ }
+
+ .music-player {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   border: 2px solid black;
+   background-image: url("123..jpg");
+   background-size: cover;
+   padding: 20px;
+   border-radius: 5px;
+ }
+
+ .music-player button {
+   background-color: #444;
+   border: none;
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   color: #fff;
+   font-size: 20px;
+   cursor: pointer;
+ }
+
+ .music-player button:hover {
+   background-color: #555;
+ }
+.productcard{
+  margin:150px;
+  display: grid;
+  display:flex;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  size: 200px;
+}
+ /* :root{
+    margin-top: 100px;
+    margin-left: 250px;
+    background-color: rgb(252, 245, 237);
+  } */
+  .product-card1 {
+    max-width: 30em;
+    width: 100%; /* Set the width to 100% to ensure equal dimensions */
+    height: 100%; /* Set the height to 100% if needed */
+    background-color: black;
+    padding: 1em;
+    box-shadow: 0 5px 5px #e1e1e1;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1.0s ease-in-out;
+ }
+
+
+ .image_card1 {
+   border-color: 10px solid #99d98c;
+   border-radius: 20px;
+ }
+
+ .product-card1 img {
+  max-width: 100%;
+  height: 150px; /* Set the height to your desired value */
+  object-fit: cover; /* Preserve the aspect ratio and cover the entire space */
+}
+
+ .product-card1 h4 {
+   color: white;
+   font-size: 1.3em;
+   margin: 0.5em 0;
+   font-weight: bold;
+ }
+
+ .product-card1 div {
+   font-size: 1.2em;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .product-card1 button {
+   background-color: bisque;
+   color: black;
+   border: none;
+   border-radius: 25px;
+   width: 50px;
+   height: 25px;
+   font-size: 0.8em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: 1s ease-in-out;
+ }
+
+ .product-card1:hover {
+   background-color: rgb(122, 159, 195);
+   border-radius: 15px;
+   color: #fff;
+ }
+
+ .product-card1:hover button {
+   color: white;
+   background-color: purple;
+ }
+
+ /* @media screen and (max-width: 576px) {
+    .product-card1 {
+      font-size: 0.9em;
+    }
+  } */
