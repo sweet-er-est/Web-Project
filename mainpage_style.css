@@ -22,7 +22,7 @@
  .navbar1 {
    width: 100%;
    height: 100vh;
-   background-image: url("/SoothEscape.png");
+   background-image: url("SoothEscape.png");
    background-size: cover;
    display: flex;
    align-items: center;
